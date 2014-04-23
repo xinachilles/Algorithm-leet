@@ -406,12 +406,12 @@ public class MyList {
               n = n.Next;
           }
           
-          int k; // for n1
-          int j; // for n2
+          int k =0 ; // for n1
+          int j = 0; // for n2
           
           for (int i = begin; i <= end; i++) {
               if(k>= n1){
-                 this.set(i, a2[j])
+                 this.set(i, a2[j]);
                       
                   
               }
